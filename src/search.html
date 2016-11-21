@@ -1,0 +1,32 @@
+<template>
+  <require from="./blur-image"></require>
+
+  <input class="au-animate">
+    <h2>${heading}</h2>
+    <h1>Hello</h1>
+
+    <input type="text" ref="txtEdit1" >
+
+    <span ref="txtEdit" >one </span>
+
+    </br>
+    <h1>Next </h1>
+    <input><span ref="txtEdit" > hello </span> </input>
+
+    <div id="typed-strings">
+      <p>Typed.js is a <strong>jQuery</strong> plugin.</p>
+      <p>It <em>types</em> out sentences.</p>
+    </div>
+    <span id.bind="hello"></span>
+
+
+    <div class="row au-stagger">
+      <div class="col-sm-6 col-md-3 card-container au-animate" repeat.for="user of users">
+        <p>${user.id}</p>
+
+        <span class.bind="element">hello</span>
+
+      </div>
+    </div>
+  </section>
+</template>
