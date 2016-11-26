@@ -11,8 +11,8 @@ export class Search {
 
   bind() {
     $(this.txtEdit1).typed({
-      strings: ["First sentence.", "Second sentence."],
-      typeSpeed: 0,
+      strings: ["Maths Probability.", "Java Programming","Dance classes"],
+      typeSpeed: 5,
       loop: true
     });
   }
