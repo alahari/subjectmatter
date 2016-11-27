@@ -173,3 +173,7 @@ div.au-stagger {
     opacity: 1;
   }
 }
+
+
+.top-buffer {
+  margin-top: 16rem; margin-left: 12rem }
